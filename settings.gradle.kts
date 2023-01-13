@@ -13,4 +13,4 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "NewsAppTeamwork"
-include ':app'
+include(":app")
