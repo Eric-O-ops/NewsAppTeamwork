@@ -56,6 +56,9 @@ dependencies {
 
     // Constraint layout
     implementation(Dependencies.UIComponents.constraintLayout)
+    implementation("androidx.legacy:legacy-support-v4:1.0.0")
+    implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.5.1")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1")
 
     // JUnit tests
     testImplementation(Dependencies.Tests.junit)
